@@ -1,1 +1,23 @@
 version: 1.0
+
+devices:
+  - name: ArduinoDevice
+    type: Arduino
+    options:
+      port: COM5
+      baudrate: 115200
+
+mappings:
+  - device: ArduinoDevice
+    endpoint: R1 #Relay 1 am Gerät Arduino
+    channel: 0
+    note: A#
+    octave: 0
+
+  - device: ArduinoDevice
+    endpoint: R2 #Relay 1 am Gerät Arduino
+    channel: 0
+    note: C
+    octave: 0
+
+
